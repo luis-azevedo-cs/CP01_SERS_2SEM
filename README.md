@@ -119,3 +119,28 @@ Atividade prática com datasets de energia — Orange Data Mining, Python e Pand
   * **Registros selecionados:** 58 (0,03% da amostra total).
   * **Diferença entre os conjuntos:** 0 registros a menos.
 * **Conclusão:** Devido à relação física direta entre potência e corrente elétrica ($P = V \cdot I$), todos os momentos de consumo extremo de potência ativa (picos acima de 7,90 kW) ocorreram inevitavelmente acompanhados de correntes elétricas bastante elevadas — substancialmente maiores que a média de 4,63 A. Por essa razão, a adição do filtro secundário de corrente não removeu nenhum registro adicional na amostra analisada.
+---------------------------------------------------------------------------------------------------------------------------------------------------
+---
+
+## Observações Metodológicas (Orange Data Mining)
+
+* **Padronização da Estrutura (Questões 1 a 5):** Para as primeiras cinco questões, utilizou-se uma estrutura padronizada de *workflow* no Orange (`File` ➔ `Data Table` ➔ `Select Columns` ➔ `Data Sampler` ➔ `Save Data`), uma vez que esse fluxo atendia integralmente aos requisitos solicitados nos enunciados.
+* **Tratamento de Dados Ausentes via Widgets (Questões 1 a 5):** Nesses primeiros conjuntos de dados, o widget `Data Table` (associado à inspeção via `Data Info`) confirmou visualmente e estruturalmente a ausência de linhas faltantes (*missing values*). Por essa razão, a inclusão do widget `Preprocess` fez-se desnecessária nessas etapas, pois a validação prévia dos widgets já garantia a integridade dos dados exportados.
+* **Uso do Preprocess (Questão 6):** Na Questão 6, por se tratar de um *dataset* com presença confirmada de valores ausentes, o widget `Preprocess` foi obrigatoriamente incorporado ao pipeline do Orange para a limpeza prévia antes da amostragem e exportação.
+---------------------------------------------------------------------------------------------------------------------------------------------------
+---
+
+## Tecnologias e Ferramentas Utilizadas
+
+* **Orange Data Mining:** Utilizado para inspeção visual dos dados, tratamento de valores ausentes, seleção de atributos e amostragem aleatória.
+* **Python 3:** Linguagem base para manipulação e análise quantitativa dos dados.
+* **Pandas:** Biblioteca para estruturação, pivotagem, filtragem e agregação de DataFrames.
+* **Google Colab / Jupyter Notebook:** Ambiente para execução dos códigos e documentação dos resultados.
+
+---
+
+## Integrantes do Grupo
+
+* **Aline Medri Marcolino**    - *RM: 569349*
+* **Luis Fernando de Azevedo** - *RM: 574167*
+
