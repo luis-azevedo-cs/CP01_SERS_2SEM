@@ -105,6 +105,7 @@ Atividade prática com datasets de energia — Orange Data Mining, Python e Pand
 **1. Orange Data Mining (Workflow):**
 <img width="782" height="380" alt="image" src="https://github.com/user-attachments/assets/8be5671a-1276-4c51-a65e-1dc05ff9346d" />
 
+
 **2. Python / Pandas (Análise):**
 * **Amostra:** 204.928 linhas × 7 colunas.
 * **Renomeação:** `Global_active_power` ➔ `Potencia_Ativa`, `Global_reactive_power` ➔ `Potencia_Reativa`, `Voltage` ➔ `Tensao`, `Global_intensity` ➔ `Corrente`.
