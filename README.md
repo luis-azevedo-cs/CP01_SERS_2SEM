@@ -2,14 +2,14 @@
 
 Atividade prática com datasets de energia — Orange Data Mining, Python e Pandas
 
-### 📊 Questão 01: Appliances Energy Prediction (UCI)
+### Questão 01: Appliances Energy Prediction (UCI)
 
 **Objetivo:** Identificar períodos de alto consumo elétrico e correlacioná-los com temperatura e umidade residenciais.
 
-**1. Orange Data Mining (Workflow):**
+** A -  Orange Data Mining (Workflow):**
 <img width="741" height="411" alt="image" src="https://github.com/user-attachments/assets/225f466a-7e30-4fd5-b25e-25640b32cce1" />
 
-**2. Python / Pandas (Análise):**
+** B - Python / Pandas (Análise):**
 * **Amostra:** 1.974 linhas × 8 colunas (sem nulos).
 * **Renomeação:** Padronização dos nomes para `Consumo_Eletrodomesticos` e variáveis ambientais (`Temp_Cozinha`, etc.).
 * **Mapeamento de Picos:**
