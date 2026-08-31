@@ -76,7 +76,7 @@ Atividade prática com datasets de energia — Orange Data Mining, Python e Pand
   * **Inversor mais frequente:** `oZ35aAeoifZaQzV` com **74 registros**.
 * **Conclusão:** A maior contagem de um inversor em períodos de pico aponta que ele operou mais vezes próximo ao teto de sua capacidade nominal durante a janela amostrada. No entanto, esse recorte isolado não permite inferir falha ou superioridade técnica sem o cruzamento com dados de irradiação solar e temperatura dos painéis (arquivo de sensores).
 --------------------------------------------------------------------------------------------------------------------------------------------------
-### 💨 Solar & Wind Energy Production (Kaggle) — Questão 05
+### Solar & Wind Energy Production (Kaggle) — Questão 05
 
 **Objetivo:** Comparar a ocorrência de períodos de alta produção solar e eólica, ajustando cada fonte ao seu próprio valor máximo para respeitar as diferenças de escala.
 
