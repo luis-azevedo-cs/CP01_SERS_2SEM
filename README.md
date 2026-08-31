@@ -76,7 +76,7 @@ Atividade prática com datasets de energia — Orange Data Mining, Python e Pand
   * **Inversor mais frequente:** `oZ35aAeoifZaQzV` com **74 registros**.
 * **Conclusão:** A maior contagem de um inversor em períodos de pico aponta que ele operou mais vezes próximo ao teto de sua capacidade nominal durante a janela amostrada. No entanto, esse recorte isolado não permite inferir falha ou superioridade técnica sem o cruzamento com dados de irradiação solar e temperatura dos painéis (arquivo de sensores).
 --------------------------------------------------------------------------------------------------------------------------------------------------
-### Solar & Wind Energy Production (Kaggle) — Questão 05
+### Questão 05 - Solar & Wind Energy Production (Kaggle)
 
 **Objetivo:** Comparar a ocorrência de períodos de alta produção solar e eólica, ajustando cada fonte ao seu próprio valor máximo para respeitar as diferenças de escala.
 
@@ -98,7 +98,7 @@ Atividade prática com datasets de energia — Orange Data Mining, Python e Pand
 * **Comparação:** A fonte **EÓLICA** apresentou maior frequência acima do seu limiar de 70% (245 vs 45 registros).
 * **Conclusão:** Utilizar um mesmo valor numérico absoluto como limite geraria uma distorção grave na análise. Como a capacidade instalada e a escala operacional da fonte eólica são significativamente maiores (pico de 22.929 contra 16.316 da solar), adotar o limite eólico na solar faria com que ela parecesse sub-representada ou inativa. A normalização relativa (70% do máximo de cada variável) garante uma comparação justa entre as fontes.
 -----------------------------------------------------------------------------------------------------------------------------------------------------
-### Individual Household Electric Power Consumption (UCI) — Questão 06
+### Questão 06 - Individual Household Electric Power Consumption (UCI)
 
 **Objetivo:** Identificar episódios de demanda elétrica elevada e analisar o impacto da inclusão da corrente elétrica acima da média como segundo critério de filtragem.
 
